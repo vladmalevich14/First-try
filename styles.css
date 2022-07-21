@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(fonts/Roboto.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(fonts/Robotobold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(fonts/Robotomedium.ttf);
+}
+
+body {
+    background: white;
+    margin: 0;
+    font-family: "Roboto Regular", serif;
+}
+
+#header {
+    border-bottom: 1px solid #E5E5E5;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header .container {
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    margin-left: 180px;
+    margin-right: 355px;
+    display: flex;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: #030305;
+    margin-right: 97px;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+}
+
+#profile span {
+    font-size: 15px;
+    line-height: 18px;
+    color: #030305;
+    font-family: "Roboto Medium", serif;
+    margin-right: 12px;
+
+}
+
+#main {
+    margin-top: 51px;
+}
+
+#main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-info {
+    max-width: 588px;
+}
+
+#main-brand {
+    font-size: 20px;
+    line-height: 23px;
+    color: #030305;
+    font-family: "Roboto Medium", serif;
+}
+
+#main h1 {
+    font-size: 100px;
+    line-height: 117px;
+    color: #030305;
+    font-family: "Roboto Bold", serif;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+
+#main-text {
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.button {
+    border: 1 px solid #030305;
+    background: #030305;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Roboto Medium", serif;
+    border-radius: 50px;
+    padding: 20px 40px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button.button-transparent {
+    background: transparent;
+    color: #030305;
+}
+
+#main .button.button-transparent {
+    margin-left: 24px;
+}
+
+#advantages {
+    margin-top: 101px;
+}
+
+#advantages .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#advantages-items {
+    max-width: 536px;
+}
+
+.advantages-items {
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.advantages-items:last-child {
+    margin: 0;
+}
+
+#order {
+    margin-top: 99px;
+    text-align: center;
+}
+
+#order-title {
+    font-size: 70px;
+    line-height: 82px;
+    color: ;
+    font-family: "Roboto Bold", serif;
+    margin-bottom: 60px;
+}
+
+#order form {
+    display: flex;
+    flex-direction: column;
+    max-width: 275px;
+    margin: 0 auto;
+}
+
+.order-input {
+    font-size: 17px;
+    line-height: 20px;
+    color: #030305;
+    border: 1px solid #878787;
+    border-radius: 50px;
+    padding: 20px 37px;
+    margin-bottom: 15px;
+}
+
+#footer {
+    margin-top: 110px;
+    border-top: 1px solid #E5E5E5;
+    padding: 25px 0;
+}
+
+#footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer span {
+    font-size: 12px;
+    line-height: 14px;
+    color: #878787
+}
